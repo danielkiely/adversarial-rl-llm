@@ -29,6 +29,8 @@ pip install flash-attn --no-build-isolation --no-cache-dir
 ```
 
 ## Usage
+This branch is mainly for running InjecAgent experiment. If you want to run AgentDojo please checkout [agentdojo branch](https://github.com/facebookresearch/rl-injector/tree/agentdojo).
+
 ### Prepare Data
 Download the original data from [InjecAgent Repo](https://github.com/uiuc-kang-lab/InjecAgent/blob/main/data/test_cases_dh_base.json), and move `test_cases_dh_base.json` to `data/InjecAgent/raw`. Then you can run `python data/InjecAgent/split_dataset.py`to split the dataset.
 
